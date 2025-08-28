@@ -7,3 +7,14 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/
 
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/txc_crm
+    username: root
+    password: Dumbu52024
+    driver: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
